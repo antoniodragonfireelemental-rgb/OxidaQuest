@@ -1,0 +1,18 @@
+﻿OXIDAQUEST — INSTALAR COMO APP
+
+1. Publica estos 4 archivos juntos en un alojamiento web HTTPS:
+   - index.html (entrada del sitio)`r`n   - OxidaQuest.html
+   - manifest.webmanifest
+   - sw.js
+   - icon.svg
+
+2. Abre OxidaQuest.html desde esa dirección HTTPS en Edge o Chrome.
+3. Usa el botón Instalar de la barra de direcciones o el menú del navegador:
+   - Edge: Aplicaciones > Instalar este sitio como una aplicación.
+   - Chrome: Instalar OxidaQuest (o Guardar y compartir > Instalar página como aplicación).
+4. Cuando se abra como app, puedes desconectarte de Internet: el juego se guarda para jugar sin conexión tras la primera carga.
+
+Para actualizarlo después de editar los archivos, vuelve a publicar los cambios y abre la app con conexión. El navegador descargará la nueva versión.
+
+Nota: no se instala desde el archivo local file://. Se necesita HTTPS o localhost para que el navegador active el manifiesto y el modo sin conexión.
+
