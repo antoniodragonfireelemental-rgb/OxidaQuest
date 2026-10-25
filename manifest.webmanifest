@@ -1,0 +1,16 @@
+{
+  "id": "./OxidaQuest.html",
+  "name": "OxidaQuest â€” NÃºmeros de oxidaciÃ³n",
+  "short_name": "OxidaQuest",
+  "description": "Aprende quÃ­mica con rondas rÃ¡pidas de nÃºmeros de oxidaciÃ³n.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7fc",
+  "theme_color": "#6948e8",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
